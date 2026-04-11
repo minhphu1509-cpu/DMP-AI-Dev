@@ -195,4 +195,23 @@ export interface TranslationSet {
     welcomeMessage: string;
     chatPlaceholder: string;
   };
+  architectureGeneratorModal: {
+    title: string;
+    sketchUpload: string;
+    styleUpload: string;
+    promptLabel: string;
+    promptPlaceholder: string;
+    generate: string;
+    generating: string;
+    error: string;
+    close: string;
+    saveImage: string;
+    dragDrop: string;
+    or: string;
+    sketchPreview: string;
+    stylePreview: string;
+    result: string;
+    clearSketch: string;
+    clearStyle: string;
+  };
 }
